@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="search">
-        <input type="text" id="search-input" value="">  
-        <button type="submit" id="search-button">GO!</button>
-    </div>
+    <form role="search" id="search-form">
+      <input type="text" name="pokemon" id="search-input" required />
+      <button id="search-button">GO!</button>
+    </form>
     <div class="container">
         <div class="img-div">
-
+          <p id="pokemon-id" ></p>
+          <p id="pokemon-name" ></p>
+          <p id="type"></p>
+          <div id="img">
+          </div>
         </div>
         <div class="table-div">
             <table>
@@ -43,10 +47,19 @@
                 </tr>
                 <tr>
                   <td>Speed:</td>
-                  <td id="speed" class="speed"></td>
+                  <td id="speed"></td>
+                </tr>
+                <tr>
+                  <td>Height:</td>
+                  <td id="height"></td>
+                </tr>
+                <tr>
+                  <td>Weight:</td>
+                  <td id="weight"></td>
                 </tr>
               </table>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
