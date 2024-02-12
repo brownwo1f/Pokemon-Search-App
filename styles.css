@@ -5,7 +5,7 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background-image :url(595256.jpg); 
+    background-image :url(https://getwallpapers.com/wallpaper/full/d/a/e/595256.jpg); 
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
@@ -52,7 +52,7 @@ body{
     border-radius: 30px;
     display: flex;
 }
-#pokemon-id, #pokemon-name, #type{
+#pokemon-id, #pokemon-name, #types{
     margin: 2px;
     padding-left: 15px;
     font-size: 14px;
