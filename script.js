@@ -23,7 +23,7 @@ const getPokemon = async () => {
     pokemonID.textContent = `#${data.id}`;
     weight.textContent = `${data.weight}`;
     height.textContent = `${data.height}`;
-    spriteContainer.innerHTML = `<img id="sprite" src="${data.sprites.front_default}" alt="${data.name} front default sprite">`;
+    spriteContainer.innerHTML = `<img id="sprite" src="${data.sprites.front_shiny}" alt="${data.name} front default sprite">`;
     hp.textContent = data.stats[0].base_stat;
     attack.textContent = data.stats[1].base_stat;
     defense.textContent = data.stats[2].base_stat;
